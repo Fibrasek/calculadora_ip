@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/fibrasek/Google Drive/Development/Android/calculadora_ip/app/build/intermediates/pre-dexed/debug/commons-net-3.3-a3d4dc137e5b43e7c6680486157bf536bc0d4144.jar"
+        jar="/Users/fibrasek/.gradle/caches/modules-2/files-2.1/commons-net/commons-net/3.3/cd0d5510908225f76c5fe5a3f1df4fa44866f81e/commons-net-3.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="cd0d5510908225f76c5fe5a3f1df4fa44866f81e"/>
+
+</pre-dex-items>

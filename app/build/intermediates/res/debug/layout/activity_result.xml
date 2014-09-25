@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/header_infos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/SlateGray"
+            android:paddingLeft="5dp"
+            android:text="@string/infolist"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp" >
+
+            <TextView
+                android:id="@+id/tv_end_rede"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/net_add" />
+
+            <TextView
+                android:id="@+id/net_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp" >
+
+            <TextView
+                android:id="@+id/tv_net_mask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/net_mask" />
+
+            <TextView
+                android:id="@+id/net_mask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp" >
+
+            <TextView
+                android:id="@+id/tv_broadcast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/broadcast" />
+
+            <TextView
+                android:id="@+id/net_broadcast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp" >
+
+            <TextView
+                android:id="@+id/tv_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/net_min" />
+
+            <TextView
+                android:id="@+id/net_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp" >
+
+            <TextView
+                android:id="@+id/tv_max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/net_max" />
+
+            <TextView
+                android:id="@+id/net_max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    
+	<LinearLayout
+	    android:id="@+id/header_footer"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayout1"
+        android:orientation="vertical" 
+        android:paddingTop="5dp">
+        
+        <TextView
+            android:id="@+id/header_hostlist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/SlateGray"
+            android:paddingLeft="5dp"
+            android:text="@string/hostlist"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse" />
+        
+		<ListView
+        	android:id="@+id/host_list"
+        	android:layout_width="fill_parent"
+        	android:layout_height="0dp" 
+        	android:layout_weight="1">
+    	</ListView>
+    	
+		<TextView 
+       		android:id="@+id/dica"
+       		android:layout_width="fill_parent"
+       		android:layout_height="wrap_content"
+       		android:background="@color/SlateGray"
+       		android:text="@string/dica"
+       		android:textAppearance="?android:attr/textAppearanceSmallInverse" />
+	</LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/fibrasek/Google%20Drive/Development/Android/calculadora_ip/app/src/main/res/layout/activity_result.xml -->
